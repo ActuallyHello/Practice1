@@ -81,3 +81,45 @@ h1, h2, h3, h4, h5, h6{
 .nav_link:hover:after{
     opacity: 1;
 }
+
+
+
+/*    CONTENT    */
+.content {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    color: #fff;
+    text-align: justify;
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info p{
+    text-indent: 30px;
+}
+
+.info img{
+    height: 300px;
+    width: 250px;
+}
+
+.left_image{
+    float: left;
+    margin: 4px 10px 2px 0px;
+}
+
+.right_image{
+    float: right;
+    margin: 0 0 5px 5px; 
+}
